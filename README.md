@@ -8,13 +8,17 @@ Import necessary libraries, including pandas for data manipulation, scikit-learn
 ### 2. Generate Imbalanced Dataset:
 Use make_classification from scikit-learn to generate an imbalanced dataset with 772 samples.
 
-### 3.Create samples:Divide the dataset into five samples using the sample size detection formula. Each sample is split into training and testing sets.
+### 3.Create samples:
+Divide the dataset into five samples using the sample size detection formula. Each sample is split into training and testing sets.
 
-### 4.Define Models:Specify machine learning models to be used: Decision Tree, Random Forest, Support Vector Classifier (SVC), Gradient Boosting, and k-Nearest Neighbors.
+### 4.Define Models:
+Specify machine learning models to be used: Decision Tree, Random Forest, Support Vector Classifier (SVC), Gradient Boosting, and k-Nearest Neighbors.
 
-### 5.Define Sampling Techniques: including RandomOverSampler, SMOTE, EasyEnsemble, ClusterCentroids, EditedNearestNeighbours, and InstanceHardnessThreshold. Note that EasyEnsembleClassifier is initialized with specific parameters.
+### 5.Define Sampling Techniques:
+Including RandomOverSampler, SMOTE, EasyEnsemble, ClusterCentroids, EditedNearestNeighbours, and InstanceHardnessThreshold. Note that EasyEnsembleClassifier is initialized with specific parameters.
 
-### 6.Model Training and Evaluation:Iterate through the samples and apply each sampling technique to train the models.For EasyEnsembleClassifier, train the model directly, as it doesn't use fit_resample.For other sampling techniques, use fit_resample to oversample/undersample the training data.
+### 6.Model Training and Evaluation:
+Iterate through the samples and apply each sampling technique to train the models.For EasyEnsembleClassifier, train the model directly, as it doesn't use fit_resample.For other sampling techniques, use fit_resample to oversample/undersample the training data.
 
 # Discussion:
 ## DecisionTreeClassifier:
