@@ -22,21 +22,21 @@ Iterate through the samples and apply each sampling technique to train the model
 
 # Discussion:
 ## DecisionTreeClassifier:
-Best Technique: RandomOverSampler and SMOTE yield the highest accuracy.
-EasyEnsembleClassifier: Slightly lower accuracy but still competitive.
+- Best Technique: RandomOverSampler yields the highest accuracy.
+- EasyEnsembleClassifier: Slightly lower accuracy but still competitive.
 
 ## RandomForestClassifier:
-Best Technique: RandomOverSampler and SMOTE are effective, while EasyEnsembleClassifier provides a balance.
-ClusterCentroids: Significant drop in accuracy.
+- Best Technique: RandomOverSampler and SMOTE are effective, while EasyEnsembleClassifier provides a balance.
+- ClusterCentroids: Significant drop in accuracy.
 
 ## SVC:
-Best Technique: RandomOverSampler and SMOTE.
-EditedNearestNeighbours: Surprisingly high accuracy compared to other models.
+- Best Technique: RandomOverSampler and SMOTE.
+- EditedNearestNeighbours: Surprisingly high accuracy compared to other models.
 
 ## GradientBoostingClassifier:
-Best Technique: RandomOverSampler and SMOTE.
-EasyEnsembleClassifier: Substantially lower accuracy compared to other models.
+- Best Technique: RandomOverSampler and ENN.
+- EasyEnsembleClassifier: Substantially lower accuracy compared to other models.
 
 ## KNeighborsClassifier:
-Best Technique: RandomOverSampler and SMOTE provide the highest accuracy.
-EditedNearestNeighbours: Achieves the highest accuracy among all techniques.
+- Best Technique: InstanceHardness Threshold works best.
+- EasyEnsembleClassifier: Substantially lower accuracy compared to other models.
